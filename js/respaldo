@@ -1,0 +1,210 @@
+function rotation(){
+
+		$("#header_logo").rotate({
+	      angle:-2,
+	      animateTo:2,
+	      callback: function(){
+	      	$(this).rotate({animateTo:-2, callback: rotation});
+	      }
+	   	});
+
+	   	$("#flot1").rotate({
+	      angle:-1,
+	      animateTo:1,
+	      callback: function(){
+	      	$(this).rotate({animateTo:-1, callback: rotation});
+	      }
+	   	}),500;
+
+	   	$("#flot2").rotate({
+	      angle:-1,
+	      animateTo:1,
+	      callback: function(){
+	      	$(this).rotate({animateTo:-1, callback: rotation});
+	      }
+	   	});
+
+	   	$("#flot3").rotate({
+	      angle:-1,
+	      animateTo:1,
+	      callback: function(){
+	      	$(this).rotate({animateTo:-1, callback: rotation});
+	      }
+	   	});
+
+	   	$("#flot4").rotate({
+	      angle:-1,
+	      animateTo:1,
+	      callback: function(){
+	      	$(this).rotate({animateTo:-1, callback: rotation});
+	      }
+	   	});
+
+	   $("#barco1").rotate({
+	      angle:0,
+	      animateTo:10,
+	      callback: function(){
+	      	$(this).rotate({animateTo:0, callback: rotation});
+	      	$(this).animate({'left' : "+=700px"},25000);
+	      }
+	   	});
+
+	   $("#barco2").rotate({
+	      angle:90,
+	      animateTo:95,
+	      callback: function(){
+	      	$(this).rotate({animateTo:90, callback: rotation});
+	      	$(this).animate({'marginTop' : "+=1000px"},20000);
+	      }
+	   });
+
+	   $("#barco3").rotate({
+	      angle:88,
+	      animateTo:92,
+	      callback: function(){
+	      	$(this).rotate({animateTo:88, callback: rotation});
+	      	$(this).animate({'marginTop' : "+=1000px"},27000);
+	      }
+	   });
+
+	   $("#barco4").rotate({
+	      angle:178,
+	      animateTo:182,
+	      callback: function(){
+	      	$(this).rotate({animateTo:178, callback: rotation});
+	      	// $(this).animate({'left' : "-=1000px"},25000);
+	      }
+	   	});
+
+	   $("#barco5").rotate({
+	      angle:132,
+	      animateTo:137,
+	      callback: function(){
+	      	$(this).rotate({animateTo:133, callback: rotation});
+	      	$(this).animate({'bottom' : "-=1000px",'left' : "-=1000px"},27000);
+	      }
+	   });
+
+	   $("#barco6").rotate({
+	      angle:-45,
+	      animateTo:-44,
+	      callback: function(){
+	      	$(this).rotate({animateTo:-45, callback: rotation});
+	      	$(this).animate({'top' : "-=1000px",'marginLeft' : "+=1000px"},27000);
+	      }
+	   });
+
+	   $("#barco7").rotate({
+	      angle:178,
+	      animateTo:182,
+	      callback: function(){
+	      	$(this).rotate({animateTo:178, callback: rotation});
+	      	$(this).animate({'left' : "-=1000px"},15000);
+	      }
+	   });
+
+	   $("#barco8").rotate({
+	      angle:178,
+	      animateTo:182,
+	      callback: function(){
+	      	$(this).rotate({animateTo:178, callback: rotation});
+	      	$(this).animate({'left' : "-=1000px"},18000);
+	      }
+	   });
+
+	   $("#barco9").rotate({
+	      angle:-134,
+	      animateTo:-135,
+	      callback: function(){
+	      	$(this).rotate({animateTo:-134, callback: rotation});
+	      	$(this).animate({'left' : "-=500px", 'bottom' : "+=500px"},18000);
+	      }
+	   });
+
+	   $("#barco10").rotate({
+	      angle:-134,
+	      animateTo:-135,
+	      callback: function(){
+	      	$(this).rotate({animateTo:-134, callback: rotation});
+	      	$(this).animate({'left' : "-=500px", 'bottom' : "+=500px"},18000);
+	      }
+	   });
+
+	   $("#barco11").rotate({
+	      angle:-88,
+	      animateTo:-92,
+	      callback: function(){
+	      	$(this).rotate({animateTo:-88, callback: rotation});
+	      	$(this).animate({'bottom' : "+=500px"},14000);
+	      }
+	   });
+
+	   $("#barco12").rotate({
+	      angle:-88,
+	      animateTo:-92,
+	      callback: function(){
+	      	$(this).rotate({animateTo:-88, callback: rotation});
+	      	$(this).animate({'bottom' : "+=300px"},12000);
+	      }
+	   });
+
+	   $("#barco13").rotate({
+	      angle:45,
+	      animateTo:47,
+	      callback: function(){
+	      	$(this).rotate({animateTo:45, callback: rotation});
+	      	$(this).animate({'left' : "+=300px", 'top' : "+=300px"},12000);
+	      }
+	   });
+
+	    $("#barco20").rotate({
+	      angle:43,
+	      animateTo:46,
+	      callback: function(){
+	      	$(this).rotate({animateTo:43, callback: rotation});
+	      	$(this).animate({'left' : "+=700px",'top' : "+=700px"},30000);
+	      }
+	   	});
+
+	   	$("#barco21").rotate({
+	      angle:-1,
+	      animateTo:2,
+	      callback: function(){
+	      	$(this).rotate({animateTo:-1, callback: rotation});
+	      	$(this).animate({'left' : "+=700px"},15000);
+	      }
+	   	});
+
+	   	$("#barco22").rotate({
+	      angle:-1,
+	      animateTo:2,
+	      callback: function(){
+	      	$(this).rotate({animateTo:-1, callback: rotation});
+	      	$(this).animate({'left' : "+=700px"},27000);
+	      }
+	   	});
+
+	   	$("#barco23").rotate({
+	      angle:-134,
+	      animateTo:-136,
+	      callback: function(){
+	      	$(this).rotate({animateTo:-134, callback: rotation});
+	      	$(this).animate({'left' : "-=700px",'top' : "-=700px"},25000);
+	      }
+	   	});
+
+	   	$("#barco24").rotate({
+	      angle:135,
+	      animateTo:137,
+	      callback: function(){
+	      	$(this).rotate({animateTo:135, callback: rotation});
+	      	$(this).animate({'left' : "-=1000px",'top' : "+=1000px"},20000);
+	      }
+	   	});
+
+	}
+
+
+
+
+

@@ -1,0 +1,264 @@
+html, body{
+	width: 100%;
+	height: 100%;
+	margin: 0px;
+	padding: 0px;
+	font-family: 'Roboto Condensed', sans-serif;
+}
+body{
+	overflow-x: hidden;
+	background-color: #FFF5EE;
+}	
+h1{
+	font-size: 1.3em;
+	width: 92%;
+	margin: 2% auto;
+}
+.contain1{
+	width: 94%;
+	padding: 3%;
+	display: flex;
+	justify-content: space-between;
+	flex-wrap:wrap;
+	align-items: center;
+	background-color: #FFFFFF;
+}
+.logo{
+	flex: 0 0 40%;
+	max-width: 200px;
+}
+.logo img{
+	width:100%;
+}
+.info{
+	font-style: italic;
+	line-height: 0.5em;
+	text-align: right;
+}
+.info a{
+	text-decoration: none;
+	color: #000;
+}
+.contain2{
+	width: 94%;
+	padding: 0px 3%;
+}
+.contain3{
+	width: 94%;
+	margin: 0px auto;	
+}
+.pestanas{
+	width: 100%;
+	display: flex;
+	flex-wrap: wrap;
+}
+.opcion{
+	flex: 0 0 50%;
+	height: 60px;
+	display: flex;
+	align-items: center;
+	justify-content: space-around;
+}
+#emision{
+	background-color: #752057;
+	color: #FFFFFF;
+}
+#gestion{
+	background-color: #1D0A2B;
+	color: #FFFFFF;
+}
+.contenido_gestion{
+	width: 95%;
+	background-color: #1D0A2B;
+	padding: 2.5%;
+	display: none;
+}
+#contenido_gestion{
+	width: 95%;
+	padding: 2.5%;
+	background-color: #FFFFFF;
+	border-radius: 5px;
+
+}
+.form_contenido{
+	width: 100%;
+	margin: 0px auto;
+	font-size: 1.2em;
+	padding-top: 10px;
+}
+.contenedor_tabla1{
+	width: 94%;
+	border: 2px solid #1D0A2B;
+	border-radius: 5px;
+	margin: 0px auto;
+}
+.form_contenido table{
+	width: 94%;
+	padding: 3%;	
+	margin: 8px auto;
+	max-width: 700px;	
+}
+.form_contenido legend{
+	padding: 15px 0px;
+	font-size: 1.2em;
+}
+.form_contenido select{
+	width: 102%;
+	padding: 15px 3%;
+	border: 2px solid #1D0A2B;
+	border-radius: 5px;
+	font-size: 0.9em;
+	font-weight: bold;
+	color: #432C5E;
+}
+.form_contenido input{
+	width: 92%;
+	padding: 15px 4%;
+	border: 2px solid #1D0A2B;
+	border-radius: 5px;
+	font-size: 0.9em;
+	font-weight: bold;
+	color: #432C5E;
+}
+.form_contenido input[type="submit"]{
+	width: 102%;
+	background-color: #1D0A2B;
+	color: #FFFFFF;
+}
+.mostrar_boleta{
+	border: 2px solid #1D0A2B;
+	width: 90%;
+	margin: 15px auto;
+	padding: 2%;
+	border-radius: 5px;
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: flex-start;
+	align-items: baseline;
+}
+.mostrar_boleta p{
+	font-size: 1.4em;
+}
+#check{
+	width: 22px;
+	height: 22px;
+	border-radius: 5px;
+	background-color: #36EB50;
+	margin-right: 5px;
+}
+.acciones{
+	width: 89%;
+	padding: 2.5%;
+	margin: 0px auto;
+	border: 2px solid #1D0A2B;
+	border-radius: 5px;
+}
+.acciones p{
+	font-size: 1.5em;
+}
+.formulario_acciones{
+	width: 95%;
+	margin: 0px auto;
+	font-size: 1.2em;	
+}
+.formulario_acciones table{
+	width: 100%;
+	max-width: 650px;
+	margin: 0px auto;
+}
+.formulario_acciones input{
+	width: 88%;
+	border: 2px solid #1D0A2B;
+	border-radius: 5px;
+	padding: 15px 5%;
+	text-align: right;
+	font-size: 0.9em;
+	font-weight: 600;
+}
+.formulario_acciones input[type="submit"]{
+	width: 99%;
+	background-color:  #1D0A2B;
+	border: none;
+	color: #FFFFFF;
+	font-weight: 600;
+	font-size: 0.9em;
+	text-align: center;
+}
+.deshabilitado{
+	background-color: #752057 !important;
+}
+
+
+.contenido_detalle{
+	width: 95%;
+	background-color: #752057;
+	padding: 2.5%;
+	display: none;
+}
+#contenido_detalle{
+	background-color: #FFFFFF;
+	width: 95%;
+	border-radius: 5px;
+	padding: 2.5%;
+}
+#tabla_detalle{
+	width: 95%;
+	border: 2px solid #752057;
+	border-radius: 5px;
+	padding: 2.5%;
+	margin: 0px auto;
+}
+#contenedor_busqueda{
+	width: 95%;
+	margin: 10px auto;
+}
+.formulario_busqueda{
+	max-width: 500px;
+}
+.formulario_busqueda label{
+	font-weight:600;
+	width: 20%; 
+}
+.formulario_busqueda select{
+	width: 40%;
+	padding: 10px 5%;
+	border:2px solid #752057;
+	border-radius: 5px;
+	margin: 0px 5px;
+	color: #752057;
+	font-weight: 600;
+}
+.formulario_busqueda option{
+	font-weight: 600;
+}	
+.formulario_busqueda input[type="submit"]{
+	width: 40%;
+	background-color: #752057;
+	border: none;
+	padding: 12px 0px;
+	border-radius: 5px;
+	color: #FFFFFF;
+	font-weight: 600;
+}
+.formulario_busqueda input[type="submit"]:hover{
+	background-color: #450C31;
+	transition: 0.5s;
+	cursor: pointer;
+}
+.formulario_emitir{
+	width: 95%;
+	padding: 2.5%;
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-between;
+}
+.formulario_detalle input[type="submit"]{
+	flex: 1 1 30%;
+	background-color: #752057;
+	margin: 1%;
+	border: none;
+	padding: 12px 0px;
+	border-radius: 5px;
+	color: #FFFFFF;
+	font-weight: 600;
+}
